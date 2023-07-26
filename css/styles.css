@@ -68,9 +68,13 @@ img {
 }
 
 .header-list {
+    display: flex;
+    gap: 40px
 }
 
 .header-item {
+    margin-right: 40px 
+    
 }
 
 .header-link,
