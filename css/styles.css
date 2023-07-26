@@ -83,6 +83,9 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    padding: 24px 0 24px;
+
 }
 
 .header-link {
@@ -99,9 +102,12 @@ img {
 }
 
 .header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-item {
+    margin-right: 40px;
 }
 
 .header-address-link {
