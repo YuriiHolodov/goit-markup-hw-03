@@ -68,8 +68,10 @@ img {
 }
 
 .header-list {
+    display: flex; 
     padding: 24px 0;
     padding: 24px 0 24px;
+    gap: 40px
 }
 
 .header-item {
