@@ -68,8 +68,8 @@ img {
 }
 
 .header-list {
-    display: flex;
-    gap: 40px
+    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .header-item {
@@ -108,6 +108,7 @@ img {
 
 .header-address-item {
     margin-right: 40px;
+    display: flex;
 }
 
 .header-address-link {
