@@ -36,9 +36,15 @@ img {
 }
 .container {
     display: flex;
+    width: 1158px;
+    padding: 0 15px 0 15px;
 }
 
 .header-navigation {
+    display: flex;
+    align-items: center;
+
+
 }
 
 .header-logo,
