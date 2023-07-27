@@ -183,11 +183,9 @@ img {
 .feature-list {
     display: flex;
     gap: 24px;
-
 }
 
 .feature-item {
-    
 }
 
 .feature-title {
