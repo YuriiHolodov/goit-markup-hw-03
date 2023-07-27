@@ -37,10 +37,7 @@ img {
 .container {
     width: 1158px;
     padding: 0 15px;
-    
-}
-.container-header {
-    display: flex;
+
 }
 
 .header-navigation {
