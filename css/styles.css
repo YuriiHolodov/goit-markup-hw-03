@@ -40,6 +40,9 @@ img {
     margin: 0 auto;
 
 }
+.container-header {
+    display: flex;
+}
 
 .header-navigation {
     display: flex;
