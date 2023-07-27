@@ -172,9 +172,11 @@ img {
 }
 
 .feature {
+    padding: 120px 0;
 }
 
-.hidden-title {
+.visually-hidden {
+    
 }
 
 .feature-list {
