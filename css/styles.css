@@ -128,6 +128,7 @@ img {
 
 .hero {
     background-color: var(--navy-blue-dark-shadows-headings-color);
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -138,6 +139,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--white-bgc-header-teamcard-color);
     text-align: center;
+    max-width: 496px;
 }
 
 .hero-button {
