@@ -41,6 +41,10 @@ img {
 
 }
 
+.container-header {
+    display: flex;
+}
+
 .header-navigation {
     display: flex;
     align-items: center;
