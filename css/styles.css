@@ -214,6 +214,19 @@ img {
     text-transform: capitalize;
     color: var(--navy-blue-dark-shadows-headings-color);
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.about {
+    padding-bottom: 120px; 
+}
+.about-list {
+    display: flex;
+    gap: 24px; 
+}
+.about-item {
+    margin-right: 24px;
+    margin-right: 0;
 }
 
 .footer-logo link {
