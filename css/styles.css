@@ -222,7 +222,8 @@ img {
 }
 .about-list {
     display: flex;
-    gap: 24px; 
+    gap: 24px;
+    width: calc((100% - 48px) / 3); 
 }
 .about-item {
     margin-right: 24px;
