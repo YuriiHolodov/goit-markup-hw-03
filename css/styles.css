@@ -21,10 +21,13 @@ img {
     height: auto;
   }
   
-
+ul.reset-list {
+    list-style: none; /* Видаляє маркери списку */
+  padding: 0; /* Видаляє внутрішні відступи */
+  margin: 0; /* Видаляє зовнішні відступи */
+}
 .list {
     list-style: none;
-    width: calc((100% - 72px) / 4);
 }
 
 .link {
