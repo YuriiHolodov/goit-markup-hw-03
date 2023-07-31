@@ -237,6 +237,7 @@ img {
 .about-item {
     margin-right: 24px;
     margin-right: 0;
+    width: calc((100% - 48px) / 3);
 }
 
 .footer-logo link {
@@ -268,6 +269,7 @@ img {
 .team {
     padding-bottom: 120px;
 }
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
