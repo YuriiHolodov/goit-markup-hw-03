@@ -188,6 +188,7 @@ img {
 .feature-item {
     margin-bottom: 8px;
     width: calc((100% - 72px) / 4); 
+    margin-right: 24px;
 }
 
 .feature-title {
@@ -241,7 +242,9 @@ img {
     order: 0;
     flex-grow: 0;
 }
-
+.team {
+    padding-bottom: 120px;
+}
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -249,8 +252,13 @@ img {
     text-transform: capitalize;
     color: var(--navy-blue-dark-shadows-headings-color);
     text-align: center;
+    margin-bottom: 72px;
 }
 
+.feature-list {
+    display: flex;
+    gap: 24px;
+}
 
 .list {
     list-style: none;
