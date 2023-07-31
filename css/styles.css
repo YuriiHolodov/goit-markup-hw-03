@@ -192,15 +192,16 @@ ul.reset-list {
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-
-.feature-list {
+/* 'секция 2 єто ul */
+.feature-list {      
     display: flex;
     gap: 24px;
 }
-
+/*секция 2 єто li */
 .feature-item {
     margin-bottom: 8px; 
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-title {
