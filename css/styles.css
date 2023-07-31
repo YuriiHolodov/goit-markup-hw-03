@@ -7,25 +7,28 @@
     --ocean-bgc-hover-focus-active-color: #404bbf;
     --cornflower-accent-color: #e7e9fc;
 }
-
+.p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+.ul {
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate-dominant-text-color);
     background-color: var(--white-bgc-header-teamcard-color);
-
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  
-ul.reset-list {
-    list-style: none; /* Видаляє маркери списку */
-  padding: 0; /* Видаляє внутрішні відступи */
-  margin: 0; /* Видаляє зовнішні відступи */
 }
+
 .list {
     list-style: none;
 }
@@ -42,7 +45,6 @@ ul.reset-list {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
 .container-header {
     display: flex;
@@ -51,8 +53,6 @@ ul.reset-list {
 .header-navigation {
     display: flex;
     align-items: center;
-
-
 }
 
 .header-logo,
@@ -63,7 +63,7 @@ ul.reset-list {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
 }
 
 .header-logo {
@@ -75,15 +75,14 @@ ul.reset-list {
 }
 
 .header-list {
-    display: flex; 
+    display: flex;
     padding: 24px 0;
     padding: 24px 0 24px;
-    gap: 40px
+    gap: 40px;
 }
 
 .header-item {
-    margin-right: 40px 
-    
+    margin-right: 40px;
 }
 
 .header-link,
@@ -94,7 +93,6 @@ ul.reset-list {
     letter-spacing: 0.02em;
     padding: 24px 0;
     padding: 24px 0 24px;
-
 }
 
 .header-link {
@@ -147,11 +145,10 @@ ul.reset-list {
     color: var(--white-bgc-header-teamcard-color);
     text-align: center;
     max-width: 496px;
-
 }
 
 .hero-button {
-    font-family:inherit;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -165,15 +162,13 @@ ul.reset-list {
     border: none;
     background-color: #4d5ae5;
     border-radius: 4px;
-    
-
 }
 
 .hero-button:hover {
     background-color: var(--ocean-bgc-hover-focus-active-color);
 }
 .hero-button:focus {
-    background-color: #404BBF
+    background-color: #404bbf;
 }
 
 .feature {
@@ -191,16 +186,14 @@ ul.reset-list {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }
+}
 /* 'секция 2 єто ul */
-.feature-list {      
+.feature-list {
     display: flex;
     gap: 24px;
 }
 /*секция 2 єто li */
 .feature-item {
-    margin-bottom: 8px; 
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -217,7 +210,7 @@ ul.reset-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate-dominant-text-color)
+    color: var(--slate-dominant-text-color);
 }
 
 .about-title {
@@ -231,11 +224,11 @@ ul.reset-list {
 }
 
 .about {
-    padding-bottom: 120px; 
+    padding-bottom: 120px;
 }
 .about-list {
     display: flex;
-    gap: 24px; 
+    gap: 24px;
 }
 .about-item {
     margin-right: 24px;
@@ -343,7 +336,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
 }
 
 .link {
