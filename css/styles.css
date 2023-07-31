@@ -192,6 +192,7 @@ img {
 .feature-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-item {
