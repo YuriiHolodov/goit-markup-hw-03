@@ -314,6 +314,7 @@ main {
 .footer {
     background-color: #2e2f42;
     background-color: var(--navy-blue-dark-shadows-headings-color);
+    padding: 100px 0;
 }
 footer {
     display: block;
