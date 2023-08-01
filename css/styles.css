@@ -271,10 +271,10 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 .team-item {
     margin-right: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-title {
