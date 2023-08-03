@@ -328,6 +328,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-primary-brand-links-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
